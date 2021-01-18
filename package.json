@@ -1,0 +1,22 @@
+{
+  "name": "trnsltr",
+  "version": "1.0.0",
+  "description": "Language Translator SaaS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiratesRome88/trnsltr.git"
+  },
+  "author": "Roman Chomko",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/PiratesRome88/trnsltr/issues"
+  },
+  "homepage": "https://github.com/PiratesRome88/trnsltr#readme",
+  "dependencies": {
+    "mocha": "^8.2.1"
+  }
+}
