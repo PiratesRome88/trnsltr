@@ -4,7 +4,8 @@
   "description": "Language Translator SaaS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "NODE_ENV=development nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/PiratesRome88/trnsltr#readme",
   "dependencies": {
+    "colour": "^0.7.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "mocha": "^8.2.1"
   }
 }
